@@ -1,7 +1,7 @@
-
 //song
-const song = new Audio(`shadmehr.mp3`);
-
+const song = new Audio(
+  "https://downloadmusic.gratomic.ir/music/dl/archive/2020/02/27/Shadmehr_Aghili-entekhab_Gratomic.com.mp3"
+);
 // console.log(song);
 //convert seconds into mm:ss format
 function formatTime(totalSeconds) {
